@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (wyrm_msgs) JobQueued: {'identifier': 'wyrm_msgs', 'dependencies': OrderedDict()}
+[0.000300] (wyrm_mocap_bridge_pkg) JobQueued: {'identifier': 'wyrm_mocap_bridge_pkg', 'dependencies': OrderedDict([('wyrm_msgs', '/home/ws/install/wyrm_msgs')])}
+[0.000835] (wyrm_msgs) JobStarted: {'identifier': 'wyrm_msgs'}
+[0.008570] (wyrm_msgs) JobProgress: {'identifier': 'wyrm_msgs', 'progress': 'cmake'}
+[0.008926] (wyrm_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ws/src/wyrm_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ws/install/wyrm_msgs'], 'cwd': '/home/ws/build/wyrm_msgs', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('HOSTNAME', 'apocalypse.ece.ncsu.edu'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/helpers/browser.sh'), ('HOME', '/home/aspradh4'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.122.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-415f7bc3-e27d-4b61-bfd6-38ed79266cbf.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-cc0e2ea9-09f1-44b4-9295-c038e471240b.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d4802414-d926-43b8-998f-a8f46b44b196.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aspradh4/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/aspradh4/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/tmp/user/331606'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d4802414-d926-43b8-998f-a8f46b44b196.sock","/home/aspradh4/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2baac0675a9fcd73.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/aspradh4/.vscode-server/data/User/workspaceStorage/7a49fc57a1febae0b8b37de17d7595f1/ms-python.python/pythonrc.py'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/331606/vscode-git-18393a2f17.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d4802414-d926-43b8-998f-a8f46b44b196.sock'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/wyrm_msgs'), ('LC_ALL', 'C.UTF-8'), ('COPILOT_DEBUG_NONCE', 'ba44b124f64a734b9a12bad084bea58f'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044644] (wyrm_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.080124] (wyrm_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.084640] (wyrm_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099736] (-) TimerEvent: {}
+[0.130926] (wyrm_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.135385] (wyrm_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.135468] (wyrm_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.135498] (wyrm_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.137141] (wyrm_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.185559] (wyrm_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.189298] (wyrm_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.189647] (wyrm_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.189721] (wyrm_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.190859] (wyrm_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199875] (-) TimerEvent: {}
+[0.264252] (wyrm_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300047] (-) TimerEvent: {}
+[0.312701] (wyrm_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.313876] (wyrm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.317480] (wyrm_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.337578] (wyrm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.358712] (wyrm_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.400476] (-) TimerEvent: {}
+[0.500741] (-) TimerEvent: {}
+[0.588061] (wyrm_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600843] (-) TimerEvent: {}
+[0.701096] (-) TimerEvent: {}
+[0.721089] (wyrm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.801186] (-) TimerEvent: {}
+[0.901422] (-) TimerEvent: {}
+[0.909115] (wyrm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.921395] (wyrm_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.922627] (wyrm_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.935592] (wyrm_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.935676] (wyrm_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.935707] (wyrm_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.935737] (wyrm_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.944988] (wyrm_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.001510] (-) TimerEvent: {}
+[1.028940] (wyrm_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.053541] (wyrm_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.061232] (wyrm_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ws/build/wyrm_msgs\n'}
+[1.069688] (wyrm_msgs) CommandEnded: {'returncode': 0}
+[1.070054] (wyrm_msgs) JobProgress: {'identifier': 'wyrm_msgs', 'progress': 'build'}
+[1.070448] (wyrm_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/wyrm_msgs', '--', '-j16', '-l16'], 'cwd': '/home/ws/build/wyrm_msgs', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('HOSTNAME', 'apocalypse.ece.ncsu.edu'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/helpers/browser.sh'), ('HOME', '/home/aspradh4'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.122.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-415f7bc3-e27d-4b61-bfd6-38ed79266cbf.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-cc0e2ea9-09f1-44b4-9295-c038e471240b.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d4802414-d926-43b8-998f-a8f46b44b196.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aspradh4/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/aspradh4/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/tmp/user/331606'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d4802414-d926-43b8-998f-a8f46b44b196.sock","/home/aspradh4/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2baac0675a9fcd73.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/aspradh4/.vscode-server/data/User/workspaceStorage/7a49fc57a1febae0b8b37de17d7595f1/ms-python.python/pythonrc.py'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/331606/vscode-git-18393a2f17.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d4802414-d926-43b8-998f-a8f46b44b196.sock'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/wyrm_msgs'), ('LC_ALL', 'C.UTF-8'), ('COPILOT_DEBUG_NONCE', 'ba44b124f64a734b9a12bad084bea58f'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.094501] (wyrm_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.100583] (wyrm_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.100735] (wyrm_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[1.101582] (-) TimerEvent: {}
+[1.105531] (wyrm_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_wyrm_msgs\n'}
+[1.201703] (-) TimerEvent: {}
+[1.224157] (wyrm_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.224637] (wyrm_msgs) StdoutLine: {'line': b'creating wyrm_msgs.egg-info\n'}
+[1.224680] (wyrm_msgs) StdoutLine: {'line': b'writing wyrm_msgs.egg-info/PKG-INFO\n'}
+[1.224714] (wyrm_msgs) StdoutLine: {'line': b'writing dependency_links to wyrm_msgs.egg-info/dependency_links.txt\n'}
+[1.224746] (wyrm_msgs) StdoutLine: {'line': b'writing top-level names to wyrm_msgs.egg-info/top_level.txt\n'}
+[1.224777] (wyrm_msgs) StdoutLine: {'line': b"writing manifest file 'wyrm_msgs.egg-info/SOURCES.txt'\n"}
+[1.225437] (wyrm_msgs) StdoutLine: {'line': b"reading manifest file 'wyrm_msgs.egg-info/SOURCES.txt'\n"}
+[1.225952] (wyrm_msgs) StdoutLine: {'line': b"writing manifest file 'wyrm_msgs.egg-info/SOURCES.txt'\n"}
+[1.243937] (wyrm_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_wyrm_msgs_egg\n'}
+[1.259622] (wyrm_msgs) StdoutLine: {'line': b'[  6%] Built target wyrm_msgs__rs\n'}
+[1.301830] (-) TimerEvent: {}
+[1.303834] (wyrm_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/wyrm_msgs/msg/detail/description__functions.c.o\x1b[0m\n'}
+[1.304354] (wyrm_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/wyrm_msgs/msg/detail/frame__functions.c.o\x1b[0m\n'}
+[1.304489] (wyrm_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/wyrm_msgs/msg/detail/rigid_body__functions.c.o\x1b[0m\n'}
+[1.305633] (wyrm_msgs) StdoutLine: {'line': b'[ 12%] Built target wyrm_msgs__cpp\n'}
+[1.312859] (wyrm_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.313141] (wyrm_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.313190] (wyrm_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.336612] (wyrm_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libwyrm_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.361547] (wyrm_msgs) StdoutLine: {'line': b'[ 20%] Built target wyrm_msgs__rosidl_generator_c\n'}
+[1.368456] (wyrm_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.369778] (wyrm_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.370049] (wyrm_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.402222] (-) TimerEvent: {}
+[1.474302] (wyrm_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wyrm_msgs/msg/description__type_support.cpp.o\x1b[0m\n'}
+[1.474618] (wyrm_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wyrm_msgs/msg/frame__type_support.cpp.o\x1b[0m\n'}
+[1.474741] (wyrm_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wyrm_msgs/msg/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[1.502326] (-) TimerEvent: {}
+[1.513566] (wyrm_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wyrm_msgs/msg/detail/dds_fastrtps/description__type_support.cpp.o\x1b[0m\n'}
+[1.515017] (wyrm_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wyrm_msgs/msg/detail/dds_fastrtps/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[1.515578] (wyrm_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wyrm_msgs/msg/detail/description__type_support.cpp.o\x1b[0m\n'}
+[1.516870] (wyrm_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wyrm_msgs/msg/detail/frame__type_support.cpp.o\x1b[0m\n'}
+[1.520166] (wyrm_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wyrm_msgs/msg/detail/dds_fastrtps/frame__type_support.cpp.o\x1b[0m\n'}
+[1.522787] (wyrm_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wyrm_msgs/msg/detail/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[1.541092] (wyrm_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wyrm_msgs/msg/description__type_support.cpp.o\x1b[0m\n'}
+[1.541254] (wyrm_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wyrm_msgs/msg/frame__type_support.cpp.o\x1b[0m\n'}
+[1.544556] (wyrm_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wyrm_msgs/msg/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[1.574289] (wyrm_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.592790] (wyrm_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wyrm_msgs/msg/detail/description__type_support_c.cpp.o\x1b[0m\n'}
+[1.592969] (wyrm_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wyrm_msgs/msg/detail/rigid_body__type_support.c.o\x1b[0m\n'}
+[1.593066] (wyrm_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wyrm_msgs/msg/detail/frame__type_support.c.o\x1b[0m\n'}
+[1.593461] (wyrm_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wyrm_msgs/msg/detail/rigid_body__type_support_c.cpp.o\x1b[0m\n'}
+[1.598021] (wyrm_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wyrm_msgs/msg/detail/description__type_support.c.o\x1b[0m\n'}
+[1.598155] (wyrm_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wyrm_msgs/msg/detail/frame__type_support_c.cpp.o\x1b[0m\n'}
+[1.602418] (-) TimerEvent: {}
+[1.624788] (wyrm_msgs) StdoutLine: {'line': b'[ 66%] Built target wyrm_msgs__rosidl_typesupport_c\n'}
+[1.646774] (wyrm_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.648894] (wyrm_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libwyrm_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.683402] (wyrm_msgs) StdoutLine: {'line': b'[ 70%] Built target wyrm_msgs__rosidl_typesupport_introspection_c\n'}
+[1.683575] (wyrm_msgs) StdoutLine: {'line': b'[ 70%] Built target wyrm_msgs__rosidl_typesupport_cpp\n'}
+[1.702513] (-) TimerEvent: {}
+[1.783247] (wyrm_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.802661] (-) TimerEvent: {}
+[1.811873] (wyrm_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.837712] (wyrm_msgs) StdoutLine: {'line': b'[ 75%] Built target wyrm_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.840598] (wyrm_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.863413] (wyrm_msgs) StdoutLine: {'line': b'[ 77%] Built target wyrm_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.889081] (wyrm_msgs) StdoutLine: {'line': b'[ 77%] Built target wyrm_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.901845] (wyrm_msgs) StdoutLine: {'line': b'[ 77%] Built target wyrm_msgs\n'}
+[1.902702] (-) TimerEvent: {}
+[1.914145] (wyrm_msgs) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.003076] (-) TimerEvent: {}
+[2.103396] (-) TimerEvent: {}
+[2.156893] (wyrm_msgs) StdoutLine: {'line': b'[ 79%] Built target wyrm_msgs__py\n'}
+[2.169320] (wyrm_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/wyrm_msgs/msg/_rigid_body_s.c.o\x1b[0m\n'}
+[2.169481] (wyrm_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/wyrm_msgs/msg/_description_s.c.o\x1b[0m\n'}
+[2.169517] (wyrm_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/wyrm_msgs/msg/_frame_s.c.o\x1b[0m\n'}
+[2.203506] (-) TimerEvent: {}
+[2.241991] (wyrm_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wyrm_msgs/libwyrm_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[2.267763] (wyrm_msgs) StdoutLine: {'line': b'[ 87%] Built target wyrm_msgs__rosidl_generator_py\n'}
+[2.280533] (wyrm_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.280699] (wyrm_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.280737] (wyrm_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.303613] (-) TimerEvent: {}
+[2.341927] (wyrm_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.342137] (wyrm_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.352556] (wyrm_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.366989] (wyrm_msgs) StdoutLine: {'line': b'[100%] Built target wyrm_msgs__rosidl_typesupport_c__pyext\n'}
+[2.367160] (wyrm_msgs) StdoutLine: {'line': b'[100%] Built target wyrm_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.376667] (wyrm_msgs) StdoutLine: {'line': b'[100%] Built target wyrm_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.383949] (wyrm_msgs) CommandEnded: {'returncode': 0}
+[2.384377] (wyrm_msgs) JobProgress: {'identifier': 'wyrm_msgs', 'progress': 'install'}
+[2.388852] (wyrm_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ws/build/wyrm_msgs'], 'cwd': '/home/ws/build/wyrm_msgs', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('HOSTNAME', 'apocalypse.ece.ncsu.edu'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/helpers/browser.sh'), ('HOME', '/home/aspradh4'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.122.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-415f7bc3-e27d-4b61-bfd6-38ed79266cbf.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-cc0e2ea9-09f1-44b4-9295-c038e471240b.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d4802414-d926-43b8-998f-a8f46b44b196.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aspradh4/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/aspradh4/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/tmp/user/331606'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d4802414-d926-43b8-998f-a8f46b44b196.sock","/home/aspradh4/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2baac0675a9fcd73.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/aspradh4/.vscode-server/data/User/workspaceStorage/7a49fc57a1febae0b8b37de17d7595f1/ms-python.python/pythonrc.py'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/331606/vscode-git-18393a2f17.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d4802414-d926-43b8-998f-a8f46b44b196.sock'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/wyrm_msgs'), ('LC_ALL', 'C.UTF-8'), ('COPILOT_DEBUG_NONCE', 'ba44b124f64a734b9a12bad084bea58f'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.393526] (wyrm_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.393651] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/rosidl_interfaces/wyrm_msgs\n'}
+[2.393761] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs\n'}
+[2.393831] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg\n'}
+[2.393873] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.393909] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail\n'}
+[2.393944] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__type_support.h\n'}
+[2.393978] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__functions.h\n'}
+[2.394020] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__struct.h\n'}
+[2.394056] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__struct.h\n'}
+[2.394099] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__type_support.h\n'}
+[2.394135] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__type_support.h\n'}
+[2.394176] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__struct.h\n'}
+[2.394219] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__functions.c\n'}
+[2.394263] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__functions.h\n'}
+[2.394308] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__functions.h\n'}
+[2.394353] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__functions.c\n'}
+[2.394400] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__functions.c\n'}
+[2.394444] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/frame.h\n'}
+[2.394488] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rigid_body.h\n'}
+[2.394529] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/description.h\n'}
+[2.394617] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/library_path.sh\n'}
+[2.394679] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/library_path.dsv\n'}
+[2.394759] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_generator_c.so\n'}
+[2.394929] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_generator_c.so" to ""\n'}
+[2.394964] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs\n'}
+[2.395005] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg\n'}
+[2.395032] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.395065] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail\n'}
+[2.395102] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__rosidl_typesupport_fastrtps_c.h\n'}
+[2.395133] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__rosidl_typesupport_fastrtps_c.h\n'}
+[2.395166] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_c.h\n'}
+[2.395213] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.395370] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.395401] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs\n'}
+[2.395434] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg\n'}
+[2.395467] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail\n'}
+[2.395498] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__type_support.c\n'}
+[2.395523] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__type_support.c\n'}
+[2.395555] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h\n'}
+[2.395589] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__rosidl_typesupport_introspection_c.h\n'}
+[2.395627] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__type_support.c\n'}
+[2.395673] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__rosidl_typesupport_introspection_c.h\n'}
+[2.395717] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.395780] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.395927] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.395961] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_c.so\n'}
+[2.396089] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_c.so" to ""\n'}
+[2.396123] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs\n'}
+[2.396157] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg\n'}
+[2.396189] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/frame.hpp\n'}
+[2.396221] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rigid_body.hpp\n'}
+[2.396258] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail\n'}
+[2.396286] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__type_support.hpp\n'}
+[2.396319] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__struct.hpp\n'}
+[2.396349] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__type_support.hpp\n'}
+[2.396390] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__builder.hpp\n'}
+[2.396433] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__traits.hpp\n'}
+[2.396481] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__traits.hpp\n'}
+[2.396524] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__builder.hpp\n'}
+[2.396568] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__struct.hpp\n'}
+[2.396668] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__type_support.hpp\n'}
+[2.396695] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__traits.hpp\n'}
+[2.396727] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__struct.hpp\n'}
+[2.396759] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__builder.hpp\n'}
+[2.396796] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/description.hpp\n'}
+[2.396841] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.396896] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs\n'}
+[2.396931] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg\n'}
+[2.396965] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail\n'}
+[2.397002] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.397028] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/dds_fastrtps\n'}
+[2.397058] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.397089] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.397122] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.397181] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.397372] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.397402] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs\n'}
+[2.397435] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg\n'}
+[2.397467] (wyrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail\n'}
+[2.397494] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__type_support.cpp\n'}
+[2.397524] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.397555] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__type_support.cpp\n'}
+[2.397588] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.397627] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__type_support.cpp\n'}
+[2.397674] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.397734] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.397906] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.397939] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_cpp.so\n'}
+[2.398080] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[2.398114] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/pythonpath.sh\n'}
+[2.398148] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/pythonpath.dsv\n'}
+[2.398203] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info\n'}
+[2.398275] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.398321] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.398366] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.398407] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.398468] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs\n'}
+[2.398503] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.398557] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/libwyrm_msgs__rosidl_generator_py.so\n'}
+[2.398619] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg\n'}
+[2.398652] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_frame_s.c\n'}
+[2.398697] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_description.py\n'}
+[2.398742] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_description_s.c\n'}
+[2.398785] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/__init__.py\n'}
+[2.398828] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_rigid_body_s.c\n'}
+[2.398872] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_rigid_body.py\n'}
+[2.398920] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_frame.py\n'}
+[2.398969] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.399032] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.399077] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/__init__.py\n'}
+[2.399115] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.399165] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.399215] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.403668] (-) TimerEvent: {}
+[2.421317] (wyrm_msgs) StdoutLine: {'line': b"Listing '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs'...\n"}
+[2.421851] (wyrm_msgs) StdoutLine: {'line': b"Compiling '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/__init__.py'...\n"}
+[2.422094] (wyrm_msgs) StdoutLine: {'line': b"Listing '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg'...\n"}
+[2.422295] (wyrm_msgs) StdoutLine: {'line': b"Compiling '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/__init__.py'...\n"}
+[2.422542] (wyrm_msgs) StdoutLine: {'line': b"Compiling '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_description.py'...\n"}
+[2.422705] (wyrm_msgs) StdoutLine: {'line': b"Compiling '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_frame.py'...\n"}
+[2.422840] (wyrm_msgs) StdoutLine: {'line': b"Compiling '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_rigid_body.py'...\n"}
+[2.427069] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.427410] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.427638] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.427862] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.428073] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.428330] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.428528] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_generator_py.so\n'}
+[2.428734] (wyrm_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_generator_py.so" to ""\n'}
+[2.429380] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/rust_packages/wyrm_msgs\n'}
+[2.429714] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust\n'}
+[2.429969] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/build.rs\n'}
+[2.430566] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/Cargo.toml\n'}
+[2.430826] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src\n'}
+[2.431083] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src/lib.rs\n'}
+[2.431315] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src/msg\n'}
+[2.431754] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src/msg/rmw.rs\n'}
+[2.432054] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src/msg.rs\n'}
+[2.432302] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/Description.idl\n'}
+[2.432539] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/RigidBody.idl\n'}
+[2.432747] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/Frame.idl\n'}
+[2.432995] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/Description.msg\n'}
+[2.433279] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/RigidBody.msg\n'}
+[2.433489] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/Frame.msg\n'}
+[2.433693] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/package_run_dependencies/wyrm_msgs\n'}
+[2.433939] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/parent_prefix_path/wyrm_msgs\n'}
+[2.434193] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/ament_prefix_path.sh\n'}
+[2.434383] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/ament_prefix_path.dsv\n'}
+[2.434574] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/path.sh\n'}
+[2.434791] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/path.dsv\n'}
+[2.435015] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/local_setup.bash\n'}
+[2.435238] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/local_setup.sh\n'}
+[2.435444] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/local_setup.zsh\n'}
+[2.435661] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/local_setup.dsv\n'}
+[2.435799] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/package.dsv\n'}
+[2.435926] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/packages/wyrm_msgs\n'}
+[2.436078] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_cExport.cmake\n'}
+[2.436225] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.436356] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.436486] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.436626] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.436763] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.436900] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.437057] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.437203] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.437340] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.437478] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.437614] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.437754] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.438049] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.438474] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.439040] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.439621] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.439789] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.440098] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.440464] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.440615] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.440935] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.441127] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.441346] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.441497] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgsConfig.cmake\n'}
+[2.441722] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgsConfig-version.cmake\n'}
+[2.442137] (wyrm_msgs) StdoutLine: {'line': b'-- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/package.xml\n'}
+[2.442457] (wyrm_msgs) CommandEnded: {'returncode': 0}
+[2.455208] (wyrm_msgs) JobEnded: {'identifier': 'wyrm_msgs', 'rc': 0}
+[2.456853] (wyrm_mocap_bridge_pkg) JobStarted: {'identifier': 'wyrm_mocap_bridge_pkg'}
+[2.503847] (-) TimerEvent: {}
+[2.604382] (-) TimerEvent: {}
+[2.704896] (-) TimerEvent: {}
+[2.716484] (wyrm_mocap_bridge_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wyrm_mocap_bridge_pkg', 'build', '--build-base', '/home/ws/build/wyrm_mocap_bridge_pkg/build', 'install', '--record', '/home/ws/build/wyrm_mocap_bridge_pkg/install.log', '--install-scripts', '$base/lib/wyrm_mocap_bridge_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ws/src/wyrm_mocap_bridge_pkg', 'env': {'PYTHON_BASIC_REPL': '1', 'HOSTNAME': 'apocalypse.ece.ncsu.edu', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ws/install/wyrm_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/helpers/browser.sh', 'HOME': '/home/aspradh4', 'OLDPWD': '/home/ws/src', 'TERM_PROGRAM_VERSION': '1.122.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-415f7bc3-e27d-4b61-bfd6-38ed79266cbf.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-cc0e2ea9-09f1-44b4-9295-c038e471240b.sock', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-d4802414-d926-43b8-998f-a8f46b44b196.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aspradh4/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/aspradh4/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/vscode/vscode-server/bin/linux-x64/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/tmp/user/331606', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-d4802414-d926-43b8-998f-a8f46b44b196.sock","/home/aspradh4/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/aspradh4/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2baac0675a9fcd73.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/aspradh4/.vscode-server/data/User/workspaceStorage/7a49fc57a1febae0b8b37de17d7595f1/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/331606/vscode-git-18393a2f17.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-d4802414-d926-43b8-998f-a8f46b44b196.sock', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/ws/install/wyrm_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ws/build/wyrm_mocap_bridge_pkg', 'LC_ALL': 'C.UTF-8', 'COPILOT_DEBUG_NONCE': 'ba44b124f64a734b9a12bad084bea58f', 'PYTHONPATH': '/home/ws/build/wyrm_mocap_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages:/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ws/install/wyrm_msgs'}, 'shell': False}
+[2.805071] (-) TimerEvent: {}
+[2.814378] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.814826] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'creating ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info\n'}
+[2.815094] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'writing ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/PKG-INFO\n'}
+[2.815257] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/dependency_links.txt\n'}
+[2.815437] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'writing entry points to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/entry_points.txt\n'}
+[2.815579] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'writing requirements to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/requires.txt\n'}
+[2.815721] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/top_level.txt\n'}
+[2.815915] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b"writing manifest file '../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/SOURCES.txt'\n"}
+[2.816076] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b"reading manifest file '../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/SOURCES.txt'\n"}
+[2.816281] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b"writing manifest file '../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/SOURCES.txt'\n"}
+[2.816497] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'running build\n'}
+[2.816718] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.816855] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'creating /home/ws/build/wyrm_mocap_bridge_pkg/build\n'}
+[2.817001] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'creating /home/ws/build/wyrm_mocap_bridge_pkg/build/lib\n'}
+[2.817208] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'creating /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg\n'}
+[2.817366] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'copying wyrm_mocap_bridge_pkg/bridge_node.py -> /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg\n'}
+[2.817499] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'copying wyrm_mocap_bridge_pkg/__init__.py -> /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg\n'}
+[2.817627] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'running install\n'}
+[2.817764] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.818017] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'creating /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg\n'}
+[2.818173] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'copying /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg/bridge_node.py -> /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg\n'}
+[2.818306] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'copying /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg/__init__.py -> /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg\n'}
+[2.818468] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'byte-compiling /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg/bridge_node.py to bridge_node.cpython-310.pyc\n'}
+[2.818606] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'byte-compiling /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[2.818732] (wyrm_mocap_bridge_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.818857] (wyrm_mocap_bridge_pkg) StderrLine: {'line': b"error: can't copy 'resource/wyrm-mocap-bridge_pkg': doesn't exist or not a regular file\n"}
+[2.828869] (wyrm_mocap_bridge_pkg) CommandEnded: {'returncode': 1}
+[2.829954] (wyrm_mocap_bridge_pkg) JobEnded: {'identifier': 'wyrm_mocap_bridge_pkg', 'rc': 1}
+[2.839330] (-) EventReactorShutdown: {}

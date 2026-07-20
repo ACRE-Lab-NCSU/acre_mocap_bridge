@@ -1,0 +1,24 @@
+[0.301s] Invoking command in '/home/ws/src/wyrm_mocap_bridge_pkg': AMENT_PREFIX_PATH=/home/ws/install/wyrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/wyrm_msgs LD_LIBRARY_PATH=/home/ws/install/wyrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/build/wyrm_mocap_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages:/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wyrm_mocap_bridge_pkg build --build-base /home/ws/build/wyrm_mocap_bridge_pkg/build install --record /home/ws/build/wyrm_mocap_bridge_pkg/install.log --install-scripts $base/lib/wyrm_mocap_bridge_pkg --single-version-externally-managed install_data
+[0.414s] running egg_info
+[0.414s] writing ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/PKG-INFO
+[0.415s] writing dependency_links to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/dependency_links.txt
+[0.415s] writing entry points to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/entry_points.txt
+[0.415s] writing requirements to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/requires.txt
+[0.415s] writing top-level names to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/top_level.txt
+[0.415s] reading manifest file '../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/SOURCES.txt'
+[0.416s] writing manifest file '../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/SOURCES.txt'
+[0.416s] running build
+[0.416s] running build_py
+[0.416s] copying wyrm_mocap_bridge_pkg/bridge_node.py -> /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg
+[0.416s] running install
+[0.417s] running install_lib
+[0.418s] copying /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg/bridge_node.py -> /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg
+[0.418s] byte-compiling /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg/bridge_node.py to bridge_node.cpython-310.pyc
+[0.419s] running install_data
+[0.419s] running install_egg_info
+[0.420s] removing '/home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.421s] Copying ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info to /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg-0.0.0-py3.10.egg-info
+[0.421s] running install_scripts
+[0.433s] Installing wyrm_mocap_bridge_node script to /home/ws/install/wyrm_mocap_bridge_pkg/lib/wyrm_mocap_bridge_pkg
+[0.433s] writing list of installed files to '/home/ws/build/wyrm_mocap_bridge_pkg/install.log'
+[0.449s] Invoked command in '/home/ws/src/wyrm_mocap_bridge_pkg' returned '0': AMENT_PREFIX_PATH=/home/ws/install/wyrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/wyrm_msgs LD_LIBRARY_PATH=/home/ws/install/wyrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/build/wyrm_mocap_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages:/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wyrm_mocap_bridge_pkg build --build-base /home/ws/build/wyrm_mocap_bridge_pkg/build install --record /home/ws/build/wyrm_mocap_bridge_pkg/install.log --install-scripts $base/lib/wyrm_mocap_bridge_pkg --single-version-externally-managed install_data

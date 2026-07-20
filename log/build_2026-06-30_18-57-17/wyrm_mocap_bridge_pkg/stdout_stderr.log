@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info
+writing ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/requires.txt
+writing top-level names to ../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/top_level.txt
+writing manifest file '../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/wyrm_mocap_bridge_pkg/wyrm_mocap_bridge_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ws/build/wyrm_mocap_bridge_pkg/build
+creating /home/ws/build/wyrm_mocap_bridge_pkg/build/lib
+creating /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg
+copying wyrm_mocap_bridge_pkg/bridge_node.py -> /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg
+copying wyrm_mocap_bridge_pkg/__init__.py -> /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg
+running install
+running install_lib
+creating /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg
+copying /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg/bridge_node.py -> /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg
+copying /home/ws/build/wyrm_mocap_bridge_pkg/build/lib/wyrm_mocap_bridge_pkg/__init__.py -> /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg
+byte-compiling /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg/bridge_node.py to bridge_node.cpython-310.pyc
+byte-compiling /home/ws/install/wyrm_mocap_bridge_pkg/lib/python3.10/site-packages/wyrm_mocap_bridge_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+error: can't copy 'resource/wyrm-mocap-bridge_pkg': doesn't exist or not a regular file

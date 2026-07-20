@@ -1,0 +1,257 @@
+[0.006s] Invoking command in '/home/ws/build/wyrm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/wyrm_msgs -- -j16 -l16
+[0.035s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.041s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.041s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.047s] [  6%] Built target ament_cmake_python_copy_wyrm_msgs
+[0.173s] running egg_info
+[0.174s] writing wyrm_msgs.egg-info/PKG-INFO
+[0.174s] writing dependency_links to wyrm_msgs.egg-info/dependency_links.txt
+[0.174s] writing top-level names to wyrm_msgs.egg-info/top_level.txt
+[0.175s] reading manifest file 'wyrm_msgs.egg-info/SOURCES.txt'
+[0.175s] writing manifest file 'wyrm_msgs.egg-info/SOURCES.txt'
+[0.195s] [  6%] Built target ament_cmake_python_build_wyrm_msgs_egg
+[0.217s] [  6%] Built target wyrm_msgs__rs
+[0.243s] [ 10%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/wyrm_msgs/msg/detail/description__functions.c.o[0m
+[0.243s] [ 10%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/wyrm_msgs/msg/detail/rigid_body__functions.c.o[0m
+[0.245s] [ 12%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/wyrm_msgs/msg/detail/frame__functions.c.o[0m
+[0.250s] [ 12%] Built target wyrm_msgs__cpp
+[0.257s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.259s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.261s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.278s] [ 20%] [32m[1mLinking C shared library libwyrm_msgs__rosidl_generator_c.so[0m
+[0.302s] [ 20%] Built target wyrm_msgs__rosidl_generator_c
+[0.309s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.310s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.310s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.419s] [ 33%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wyrm_msgs/msg/rigid_body__type_support.cpp.o[0m
+[0.419s] [ 33%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wyrm_msgs/msg/frame__type_support.cpp.o[0m
+[0.419s] [ 33%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wyrm_msgs/msg/description__type_support.cpp.o[0m
+[0.467s] [ 35%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wyrm_msgs/msg/detail/dds_fastrtps/description__type_support.cpp.o[0m
+[0.467s] [ 37%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wyrm_msgs/msg/detail/frame__type_support.cpp.o[0m
+[0.467s] [ 39%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wyrm_msgs/msg/detail/rigid_body__type_support.cpp.o[0m
+[0.467s] [ 41%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wyrm_msgs/msg/detail/description__type_support.cpp.o[0m
+[0.470s] [ 43%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wyrm_msgs/msg/detail/dds_fastrtps/rigid_body__type_support.cpp.o[0m
+[0.476s] [ 45%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wyrm_msgs/msg/detail/dds_fastrtps/frame__type_support.cpp.o[0m
+[0.488s] [ 47%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wyrm_msgs/msg/description__type_support.cpp.o[0m
+[0.488s] [ 50%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wyrm_msgs/msg/rigid_body__type_support.cpp.o[0m
+[0.494s] [ 52%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wyrm_msgs/msg/frame__type_support.cpp.o[0m
+[0.535s] [ 54%] [32m[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_c.so[0m
+[0.535s] [ 56%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wyrm_msgs/msg/detail/rigid_body__type_support.c.o[0m
+[0.542s] [ 58%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wyrm_msgs/msg/detail/frame__type_support.c.o[0m
+[0.551s] [ 60%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wyrm_msgs/msg/detail/description__type_support.c.o[0m
+[0.561s] [ 62%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wyrm_msgs/msg/detail/description__type_support_c.cpp.o[0m
+[0.563s] [ 64%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wyrm_msgs/msg/detail/frame__type_support_c.cpp.o[0m
+[0.569s] [ 66%] [32mBuilding CXX object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wyrm_msgs/msg/detail/rigid_body__type_support_c.cpp.o[0m
+[0.591s] [ 66%] Built target wyrm_msgs__rosidl_typesupport_c
+[0.606s] [ 68%] [32m[1mLinking C shared library libwyrm_msgs__rosidl_typesupport_introspection_c.so[0m
+[0.623s] [ 70%] [32m[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_cpp.so[0m
+[0.636s] [ 70%] Built target wyrm_msgs__rosidl_typesupport_introspection_c
+[0.658s] [ 70%] Built target wyrm_msgs__rosidl_typesupport_cpp
+[0.755s] [ 72%] [32m[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[0.785s] [ 75%] [32m[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.817s] [ 75%] Built target wyrm_msgs__rosidl_typesupport_introspection_cpp
+[0.828s] [ 77%] [32m[1mLinking CXX shared library libwyrm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[0.848s] [ 77%] Built target wyrm_msgs__rosidl_typesupport_fastrtps_cpp
+[0.884s] [ 77%] Built target wyrm_msgs__rosidl_typesupport_fastrtps_c
+[0.896s] [ 77%] Built target wyrm_msgs
+[0.909s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.159s] [ 79%] Built target wyrm_msgs__py
+[1.174s] [ 81%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/wyrm_msgs/msg/_description_s.c.o[0m
+[1.174s] [ 83%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/wyrm_msgs/msg/_rigid_body_s.c.o[0m
+[1.174s] [ 85%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/wyrm_msgs/msg/_frame_s.c.o[0m
+[1.243s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/wyrm_msgs/libwyrm_msgs__rosidl_generator_py.so[0m
+[1.273s] [ 87%] Built target wyrm_msgs__rosidl_generator_py
+[1.289s] [ 89%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[1.289s] [ 93%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.289s] [ 93%] [32mBuilding C object CMakeFiles/wyrm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.357s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.364s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.365s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.387s] [100%] Built target wyrm_msgs__rosidl_typesupport_introspection_c__pyext
+[1.392s] [100%] Built target wyrm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.392s] [100%] Built target wyrm_msgs__rosidl_typesupport_c__pyext
+[1.401s] Invoked command in '/home/ws/build/wyrm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/wyrm_msgs -- -j16 -l16
+[1.408s] Invoking command in '/home/ws/build/wyrm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ws/build/wyrm_msgs
+[1.413s] -- Install configuration: ""
+[1.413s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/rosidl_interfaces/wyrm_msgs
+[1.413s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs
+[1.413s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg
+[1.413s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.413s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail
+[1.413s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__type_support.h
+[1.413s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__functions.h
+[1.413s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__struct.h
+[1.413s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__struct.h
+[1.413s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__type_support.h
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__type_support.h
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__struct.h
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__functions.c
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__functions.h
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__functions.h
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__functions.c
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__functions.c
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/frame.h
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rigid_body.h
+[1.414s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/description.h
+[1.414s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/library_path.sh
+[1.414s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/library_path.dsv
+[1.415s] -- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_generator_c.so
+[1.415s] -- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_generator_c.so" to ""
+[1.415s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs
+[1.415s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg
+[1.415s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.415s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail
+[1.415s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__rosidl_typesupport_fastrtps_c.h
+[1.415s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__rosidl_typesupport_fastrtps_c.h
+[1.415s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_c.h
+[1.415s] -- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_fastrtps_c.so
+[1.415s] -- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[1.415s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs
+[1.416s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg
+[1.416s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail
+[1.416s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__type_support.c
+[1.416s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__type_support.c
+[1.416s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h
+[1.416s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__rosidl_typesupport_introspection_c.h
+[1.416s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__type_support.c
+[1.416s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__rosidl_typesupport_introspection_c.h
+[1.416s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.416s] -- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_introspection_c.so
+[1.416s] -- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.416s] -- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_c.so
+[1.416s] -- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_c.so" to ""
+[1.417s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs
+[1.417s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg
+[1.417s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/frame.hpp
+[1.417s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rigid_body.hpp
+[1.417s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail
+[1.417s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__type_support.hpp
+[1.417s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__struct.hpp
+[1.417s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__type_support.hpp
+[1.417s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__builder.hpp
+[1.417s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__traits.hpp
+[1.418s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__traits.hpp
+[1.418s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__builder.hpp
+[1.418s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__struct.hpp
+[1.418s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__type_support.hpp
+[1.418s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__traits.hpp
+[1.418s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__struct.hpp
+[1.418s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__builder.hpp
+[1.418s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/description.hpp
+[1.419s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.419s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs
+[1.419s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg
+[1.419s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail
+[1.419s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__rosidl_typesupport_fastrtps_cpp.hpp
+[1.419s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/dds_fastrtps
+[1.419s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__rosidl_typesupport_fastrtps_cpp.hpp
+[1.419s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp
+[1.420s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.420s] -- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.420s] -- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.420s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs
+[1.420s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg
+[1.420s] -- Up-to-date: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail
+[1.420s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__type_support.cpp
+[1.420s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_cpp.hpp
+[1.420s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/rigid_body__type_support.cpp
+[1.421s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/frame__rosidl_typesupport_introspection_cpp.hpp
+[1.421s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__type_support.cpp
+[1.421s] -- Installing: /home/ws/install/wyrm_msgs/include/wyrm_msgs/wyrm_msgs/msg/detail/description__rosidl_typesupport_introspection_cpp.hpp
+[1.421s] -- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_introspection_cpp.so
+[1.421s] -- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.421s] -- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_cpp.so
+[1.421s] -- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_typesupport_cpp.so" to ""
+[1.422s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/pythonpath.sh
+[1.422s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/pythonpath.dsv
+[1.422s] -- Up-to-date: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info
+[1.422s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.422s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[1.422s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[1.422s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.423s] -- Up-to-date: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/libwyrm_msgs__rosidl_generator_py.so
+[1.423s] -- Up-to-date: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_frame_s.c
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_description.py
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_description_s.c
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/__init__.py
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_rigid_body_s.c
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_rigid_body.py
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_frame.py
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.423s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.424s] -- Up-to-date: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/__init__.py
+[1.424s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.424s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.424s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/_wyrm_msgs_s.ep.rosidl_typesupport_c.c
+[1.450s] Listing '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs'...
+[1.451s] Listing '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg'...
+[1.451s] Compiling '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/__init__.py'...
+[1.451s] Compiling '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_description.py'...
+[1.451s] Compiling '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_frame.py'...
+[1.451s] Compiling '/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/msg/_rigid_body.py'...
+[1.453s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.453s] -- Set runtime path of "/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.453s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.454s] -- Set runtime path of "/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.454s] -- Installing: /home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.454s] -- Set runtime path of "/home/ws/install/wyrm_msgs/local/lib/python3.10/dist-packages/wyrm_msgs/wyrm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.454s] -- Installing: /home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_generator_py.so
+[1.454s] -- Set runtime path of "/home/ws/install/wyrm_msgs/lib/libwyrm_msgs__rosidl_generator_py.so" to ""
+[1.454s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/rust_packages/wyrm_msgs
+[1.454s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust
+[1.454s] -- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/build.rs
+[1.454s] -- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/Cargo.toml
+[1.454s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src
+[1.455s] -- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src/lib.rs
+[1.455s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src/msg
+[1.455s] -- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src/msg/rmw.rs
+[1.455s] -- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/rust/src/msg.rs
+[1.455s] -- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/Description.idl
+[1.455s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/RigidBody.idl
+[1.455s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/Frame.idl
+[1.455s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/Description.msg
+[1.455s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/RigidBody.msg
+[1.455s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/msg/Frame.msg
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/package_run_dependencies/wyrm_msgs
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/parent_prefix_path/wyrm_msgs
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/ament_prefix_path.sh
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/ament_prefix_path.dsv
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/path.sh
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/environment/path.dsv
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/local_setup.bash
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/local_setup.sh
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/local_setup.zsh
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/local_setup.dsv
+[1.456s] -- Installing: /home/ws/install/wyrm_msgs/share/wyrm_msgs/package.dsv
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/ament_index/resource_index/packages/wyrm_msgs
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_cExport.cmake
+[1.456s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_cExport.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_cppExport.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_cppExport.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_pyExport.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/export_wyrm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/rosidl_cmake-extras.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgsConfig.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/cmake/wyrm_msgsConfig-version.cmake
+[1.457s] -- Up-to-date: /home/ws/install/wyrm_msgs/share/wyrm_msgs/package.xml
+[1.459s] Invoked command in '/home/ws/build/wyrm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ws/build/wyrm_msgs
