@@ -52,6 +52,6 @@ rt/robot_name_pos
 ```
 
 ### wyrm_msgs
-**wyrm_msgs** provides msg files for the ros-idl-generator to generate the relevant idl files for ROS to interpret the /WyrmFrame and /WyrmDescription topic messages. Wyrm publishes messages via cyclonedds, so a specific idl structure is required for ROS to recognize Wyrm topics as valid ROS topics. 
+**wyrm_msgs** provides msg files for the ros-idl-generator to generate the relevant idl files for ROS to interpret the `/WyrmFrame` and `/WyrmDescription` topic messages. Wyrm publishes messages via cyclonedds, so a specific idl structure is required for ROS to recognize Wyrm topics as valid ROS topics. 
 
 
